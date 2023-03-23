@@ -1,5 +1,11 @@
 # gradio_docker
 
+
+<p align="center">
+    <img src="https://custom-icon-badges.herokuapp.com/badge/license-CC0%201.0-8BB80A.svg?logo=law&logoColor=white">
+    <img src="https://img.shields.io/github/last-commit/akh1r0ck/gradio_docker">
+</p>
+
 ## 開発環境
 
 | 環境 | バージョン |
