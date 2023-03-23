@@ -40,3 +40,47 @@ docker build -t gradio_demo .
 ```bash
 docker run --rm -it gradio_demo bash
 ```
+
+## 解説
+
+### [gradio.Interface](https://www.gradio.app/docs/#interface)
+
+```python
+demo = gr.Interface(
+    fn=greet,
+    inputs="text",
+    outputs="text"
+    )
+```
+
+- キーワード引数:fn
+  - 呼び出す関数を指定する引数
+  - greet()という関数を呼び出している
+- キーワード引数:inputs
+  - fnで呼び出す関数に与える引数を指定する引数（ややこしい）
+    - コンポーネント，コンポーネントを格納した変数を指定する
+    - 今回のように"text"とエイリアスを指定することも可能
+  - gradioの[Textboxコンポーネント](https://www.gradio.app/docs/#textbox)をエイリアスを使って指定
+
+- キーワード引数:outputs
+  - fnで呼び出した関数の戻り値を指定する引数（ややこしい）
+    - コンポーネント，コンポーネントを格納した変数を指定する
+    - 今回のように"text"とエイリアスを指定することも可能
+  - gradioの[Textboxコンポーネント](https://www.gradio.app/docs/#textbox)をエイリアスを使って指定
+
+### [gradio.Interfaec.launch](https://www.gradio.app/docs/#interface-launch)
+
+```python
+demo.launch(
+    server_name="0.0.0.0",
+    server_port=80
+    )
+```
+
+- キーワード引数:server_name
+  - サーバー名を指定する引数
+  - <b>ローカルで使うなら "0.0.0.0"にセットするんやで</b>と[launch()の公式ドキュメント](https://www.gradio.app/docs/#interface-launch-header)に書いてあったのでそれを採用
+
+- キーワード引数:server_port
+  - ポート番号を指定する引数  
+  - お約束の80番ポートを指定
