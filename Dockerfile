@@ -6,5 +6,4 @@ COPY ./ /work
 
 RUN pip install --no-cache-dir --upgrade -r /work/requirements.txt
 
-
 CMD ["python", "app.py"]
