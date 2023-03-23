@@ -31,8 +31,8 @@ docker build -t gradio_demo .
     [http://0.0.0.0:80](http://0.0.0.0:80)
 
 3. swaggerにアクセス  
-    [http://0.0.0.0:80/docs](http://0.0.0.0:80/docs)
-※gradioのバックエンドがFastAPIなのでswaggerも使えるようです
+    [http://0.0.0.0:80/docs](http://0.0.0.0:80/docs)  
+    ※gradioのバックエンドがFastAPIなのでswaggerも使えるようです
 
 
 ### docker containerをbashで起動
