@@ -20,6 +20,13 @@
 
 ## 操作
 
+### git clone
+
+```bash
+git clone https://github.com/akh1r0ck/gradio_docker.git
+cd gradio_docker
+```
+
 ### docker imageのビルド
 
 ```bash
