@@ -9,6 +9,8 @@
     </a>
 </p>
 
+[README in English](https://github.com/akh1r0ck/gradio_docker/blob/master/README-aws.md)
+
 ## 開発環境
 
 | 環境 | バージョン |
