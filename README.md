@@ -1,4 +1,4 @@
-# gradio_docker
+# 🚀Gradio Docker🐋
 
 
 <p align="center">
@@ -9,7 +9,7 @@
     </a>
 </p>
 
-[README in English](https://github.com/akh1r0ck/gradio_docker/blob/master/README-aws.md)
+[README for AWS App Runner](https://github.com/akh1r0ck/gradio_docker/blob/master/README-aws.md)
 
 ## 開発環境
 
