@@ -4,6 +4,9 @@
 <p align="center">
     <img src="https://custom-icon-badges.herokuapp.com/badge/license-CC0%201.0-8BB80A.svg?logo=law&logoColor=white">
     <img src="https://img.shields.io/github/last-commit/akh1r0ck/gradio_docker">
+    <a href="https://exm3paufiq.us-east-2.awsapprunner.com/">
+    <img src="https://img.shields.io/badge/AWS-App%20Runner-orange">
+    </a>
 </p>
 
 ## 開発環境
