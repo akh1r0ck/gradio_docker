@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/akh1r0ck/gradio_docker/blob/master/README-aws.md">README for AWS App Runner</a>
+  <a href="https://github.com/akh1r0ck/gradio_docker/blob/master/README-aws.md">README for AWS Copilot</a>
 </p>
 
 
@@ -32,6 +32,7 @@
 
 ```bash
 git clone https://github.com/akh1r0ck/gradio_docker.git
+pip install gradio
 cd gradio_docker
 ```
 
