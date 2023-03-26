@@ -1,0 +1,23 @@
+About
+
+  Name                  gredio-test
+  Version               v1.1.0 
+  URI                   N/A
+  Permissions Boundary  N/A
+
+Environments
+
+  Name    AccountID     Region
+  ----    ---------     ------
+  test    HOEG          us-east-2
+
+Workloads
+
+  Name    Type                        Environments
+  ----    ----                        ------------
+  gradio  Request-Driven Web Service  test
+
+Pipelines
+
+  Name
+  ----

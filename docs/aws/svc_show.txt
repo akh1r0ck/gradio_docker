@@ -1,0 +1,25 @@
+About
+
+  Application  gredio-test
+  Name         gradio
+  Type         Request-Driven Web Service
+
+Configurations
+
+  Environment  CPU (vCPU)  Memory (MiB)  Port
+  -----------  ----------  ------------  ----
+  test         1           2048          80
+
+Routes
+
+  Environment  Ingress   URL
+  -----------  -------   ---
+  test         internet  https://exm3paufiq.us-east-2.awsapprunner.com
+
+Variables
+
+  Name                      Environment  Value
+  ----                      -----------  -----
+  COPILOT_APPLICATION_NAME  test         gredio-test
+  COPILOT_ENVIRONMENT_NAME    "          test
+  COPILOT_SERVICE_NAME        "          gradio

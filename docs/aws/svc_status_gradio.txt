@@ -1,0 +1,22 @@
+Service Status
+
+ Status RUNNING 
+
+Last deployment
+
+  Updated At  14 hours ago
+  Service ID  gredio-test-test-gradio/HOGE
+  Source      gredio-test/gradio@HOGE:FUGA
+
+System Logs
+
+  2023-03-25T16:32:12Z  [AppRunner] Starting to pull your application image.
+  2023-03-25T16:32:12Z  [AppRunner] Deployment with ID : HOGE started. Triggering event : SERVICE_CREATE
+  2023-03-25T16:32:13Z  [AppRunner] Deployment Artifact :- Repo Type: ECR; Image URL : HOGE; Image Tag : null
+  2023-03-25T16:34:54Z  [AppRunner] Successfully copied the image from ECR.
+  2023-03-25T16:35:04Z  [AppRunner] Provisioning instances and deploying image for publicly accessible service.
+  2023-03-25T16:35:15Z  [AppRunner] Performing health check on port '80'.
+  2023-03-25T16:36:04Z  [AppRunner] Health check is successful. Routing traffic to application.
+  2023-03-25T16:36:54Z  [AppRunner] Successfully routed incoming traffic to application.
+  2023-03-25T16:36:55Z  [AppRunner] Finished pulling your application image.
+  2023-03-25T16:36:55Z  [AppRunner] Deployment with ID : HOGE completed successfully.
