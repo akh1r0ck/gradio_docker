@@ -7,7 +7,7 @@ Now Draft, Detail Comming Soon...
 1. IAMユーザーを作成，ポリシーを与えておく，アクセスキーを控えておく
 2. AWS CLI，AWS Copilotをインストール
 3. ECRにリポジトリをプッシュ
-4. CopiLotを初期化・デプロイ
+4. Copilotを初期化・デプロイ
 
 ## Copilot CLI
 
